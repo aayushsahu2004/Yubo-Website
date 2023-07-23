@@ -1,0 +1,715 @@
+@font-face {
+    font-family: right;
+    src: url(font/RightGrotesk-CompactBlack.otf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(font/RightGrotesk-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+/* Page1 */
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    position: relative;
+}
+
+#page1 #nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    z-index: 10;
+}
+
+#nav i{
+    font-size: 25px;
+    color: white;
+}
+
+#nav img{
+    width: 150px;
+}
+
+#nav-part1{
+    width: 10%;
+    height: 60%;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#nav-part1 i{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-part1 :nth-child(1){
+    border-right: 2px solid white;
+    padding: 0px 22px 0px 0px;
+}
+
+#page1 h1{
+    font-size: 130px;
+    font-family: right;
+    color: #FFE30A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 120px;
+}
+
+/* Page2 */
+
+#page2{
+    width: 100%;
+    height: 150%;
+    background-color: #FFE30A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#page2-text{
+    width: 40%;
+    height: 50%;
+    margin-left: 150px;
+}
+
+#page2-text h1{
+    font-size: 120px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-family: right;
+    line-height: 120px;
+}
+
+#footer-icon{
+    width: 100%;
+    height: 100px;
+    display: block;
+    gap: 20px;
+}
+
+#footer-icon img{
+    width: 45%;
+    margin-top: 60px;
+}
+
+
+#footer-icon img:nth-child(1){
+    margin-right: 20px;
+}
+
+#page2-image{
+    width: 50%;
+    height: 75%;
+    margin-right: 120px;
+    margin-top: 90px;
+    position: relative;
+}
+
+#page2-image #image1{
+    width: 80%;
+    height: 100%;
+}
+
+#page2-image #image1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image2{
+    position: absolute;
+    top: 33%;
+    left: -20%;
+}
+
+#image2 img{
+    width: 80%;
+}
+
+#image3{
+    position: absolute;
+    top: 63%;
+    left: -15%;
+}
+
+#image3 img{
+    width: 80%;
+}
+
+#image4{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+#image4 img{
+    width: 80%;
+}
+
+#image5{
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+}
+
+#image5 img{
+    width: 100%;
+}
+
+#image6{
+    position: absolute;
+    bottom: 23%;
+    left: 80%;
+}
+
+#image6 img{
+    width: 150%;
+}
+
+#page3{
+    width: 100%;
+    height: 300%;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+    background-color: #FFE30A;
+}
+
+#subpage1{
+    width: 100%;
+    height: 40%;
+}
+
+#first-text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first-text1{
+    width: 40%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+#first-text1 h1{
+    font-size: 140px;
+    font-family: right;
+    line-height: 120px;
+    font-weight: 500;
+    color: #FFE30A;
+}
+
+#first-text2{
+    width: 26%;
+    height: 100%;
+    margin-right: 50px;
+}
+
+#text2-top{
+    width: 100%;
+    height: 27%;
+    margin-top: 80px;
+}
+
+#text2-top h2{
+    font-family: light;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+}
+
+#button button{
+    padding: 15px 34px;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #FFE30A;
+    background-color: #FFE30A;
+    transition: all ease 0.5s;
+}
+
+#button button:hover{
+    background-color: transparent;
+    color: #FFE30A;
+}
+
+#subpage2{
+    width: 100%;
+    height: 50%;
+}
+
+#subpage2-parts{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+#part1{
+    width: 30%;
+    height: 100%;
+    margin: 40px 80px 0px 168px;
+}
+
+#part1-image{
+    width: 100%;
+    height: 50%;
+}
+
+#part1-image img{
+    width: 90%;
+    margin-left: 40px;
+}
+
+#part1-text{
+    width: 100%;
+    height: 40%;
+}
+
+#part1-text h2{
+    font-family: light;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+#part1-button{
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+#part1-button button{
+    padding: 13px 28px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    border: 1px solid #FFE30A;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+#part1-button button:hover{
+    background-color: transparent;
+    color: #FFE30A;
+}
+
+#part2{
+    width: 35%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+#part2-image{
+    width: 100%;
+    height: 90%;
+}
+
+#part2-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+/* Page4 */
+
+#page4{
+    width: 100%;
+    height: 170%;
+    background-color: #151400;
+}
+
+#page4-subpage1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+#subpage1-text1{
+    width: 80%;
+    height: 100%;
+    margin: 0px 80px 0px 168px;
+}
+
+#subpage1-text1 h1{
+    font-size: 120px;
+    font-weight: 600;
+    color: #FFE30A;
+    font-family: right;
+    line-height: 100px;
+    letter-spacing: -2px;
+}
+
+#subpage1-text1 h1 img{
+    width: 75px;
+}
+
+#subpage1-button{
+    width: 18%;
+    height: 100%;
+    margin-right: 168px;
+}
+
+#subpage1-button button{
+    margin-top: 60px;
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    border: 1px solid #FFE30A;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+#subpage1-button button:hover{
+    background-color: transparent;
+    color: #FFE30A;
+}
+
+#page4-subpage2{
+    width: 100%;
+    height: 130%;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+}
+
+#page4-parts{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+#subpage2-part1{
+    width: 28%;
+    height: 49%;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin: 200px 80px 0px 168px ;
+}
+
+#overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.1px;
+    border-radius: 30px;
+}
+
+#part1-first{
+    width: 70px;
+    height: 40px;
+    background-color: #8E6BFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-left: 70%;
+}
+
+#subpage2-part1 h1{
+    font-family: right;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: 78%;
+    margin-left: 12%;
+}
+
+#part1-second{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8%;
+    margin-left: 12%;
+}
+
+#part1-second h6{
+    font-family: light;
+    color: white;
+    font-size: 15px;
+}
+
+#subpage2-part2{
+    width: 38%;
+    height: 100%;
+}
+
+#part2-first{
+    width: 100%;
+    height: 49%;
+    background-image:url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+#overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.1px;
+    border-radius: 40px;
+}
+
+#first-top{
+    width: 85px;
+    height: 40px;
+    background-color: #FF5252;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#part2-first h1{
+    font-family: right;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: 34%;
+    margin-left: 5%;
+}
+
+#first-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#first-bottom h6{
+    font-family: light;
+    color: white;
+    font-size: 15px;
+}
+
+#part2-second{
+    width: 80%;
+    height: 51%;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    margin-left: 10%;
+    margin-top: 60px;
+    border-radius: 40px;
+}
+
+#overlay3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.1px;
+    border-radius: 40px;
+}
+
+#second-top{
+    width: 100px;
+    height: 40px;
+    background-color: #FFE30A;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: light;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+#part2-second h1{
+    font-family: right;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: 34%;
+    margin-left: 8%;
+}
+
+#second-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#second-bottom h6{
+    font-family: light;
+    color: white;
+    font-size: 15px;
+}
+
+
+#page5{
+    width: 100%;
+    height: 90%;
+    background-color: #996BFF;
+}
+
+#page5 img{
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+#footer{
+    width: 100%;
+    height: 110%;
+    background-color: #FFE30A;
+    padding: 0.1px;
+}
+
+#footer-page{
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+    padding: 50px;
+}
+
+#text{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main h1{
+    font-family: right;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.info a{
+    line-height: 28px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: light;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative; 
+}
+
+.info a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, 0);
+    bottom: -3px;
+    transition: all ease 0.3s;
+}
+
+.info a:hover::after{
+    width: 100%;
+}
+
+#icon{
+    width: 28%;
+    height: 60px;
+    margin-left: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bottom-text{
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#text-part1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#text-part1 h2{
+    font-size: 16px;
+    font-family: right;
+}
+
+#text-part2{
+    width: 15%;
+    height: 100%;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-part2 p{
+    font-family: light;
+}
+
+#text-part3{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-part3 h2{
+    font-size: 16px;
+    font-family: right;
+}
